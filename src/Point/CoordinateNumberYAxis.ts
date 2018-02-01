@@ -1,8 +1,8 @@
-import CoordinateNumber from './CoordinateNumber';
+import CoordinateNumberAbstract from './CoordinateNumberAbstract';
 
-class CoordinateNumberYAxis implements CoordinateNumber {
-    distance(coord: CoordinateNumberYAxis) {
-        return 0;
+class CoordinateNumberYAxis extends CoordinateNumberAbstract {
+    distance(coord: CoordinateNumberYAxis): number {
+        return super.distance(coord);
     }
 }
 
