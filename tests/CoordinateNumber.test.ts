@@ -1,5 +1,5 @@
-import CoordinateNumberXAxis from '../src/Point/CoordinateNumberXAxis';
-import CoordinateNumberYAxis from '../src/Point/CoordinateNumberYAxis';
+import CoordinateNumberXAxis from '../src/CoordinateNumber/CoordinateNumberXAxis';
+import CoordinateNumberYAxis from '../src/CoordinateNumber/CoordinateNumberYAxis';
 
 describe('CoordinateNumber', () => {
     it('will return the correct distance beetween two CoordinateNumber', () => {
