@@ -1,4 +1,3 @@
-import repeat from '../../utils/repeat';
 import Cell from '../Cell/Cell';
 
 class World {
